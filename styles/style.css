@@ -1,0 +1,27 @@
+body {
+    background: black;
+    font-family: "Oswald Regular",sans-serif;
+    list-style-type: none;
+}
+.manubar {
+    float: right;
+}
+.manubar a {  
+    opacity: .4;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+    text-decoration: .25s;
+    letter-spacing: 3px;
+}
+.manubar a:hover {
+    opacity: 1;
+}
+.label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
